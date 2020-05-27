@@ -2,7 +2,7 @@ import axios from 'axios'
 
 export function request(config) {
     const instance = axios.create({
-        baseURL: "http://123.207.32.32:8000",//修改后的域名，防止服务器滥用
+        baseURL: "http://127.0.0.1:8000",
         timeout: 5000
     })
 
